@@ -1,0 +1,71 @@
+<div class="mt-4 mb2">
+    <div class="row">
+        <div class="col-md-3" *ngFor="let product of products">
+            <div class="p-card-wrppr with-campaign-view">
+                <div class="card-border">
+                    <a [href]="'/product/' + product.id">
+                        <div class="image-container">
+                            <div class="p-card-img-wr">
+                                <img class="p-card-img" [src]="product.imageUrl" [alt]="product.name">
+                            </div>
+                            <div class="image-overlay">
+                                <div class="image-overlay-header">
+                                    <div class="product-stamps-container"></div>
+                                </div>
+                                <div class="image-overlay-body">
+                                    <div class="cstm-stmp-box-wrppr">
+                                        <div class="upper-left">
+                                            <img width="57.75" src="assets/img/iyi.webp">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-down">
+                            <div>
+                                <div class="prdct-desc-cntnr">
+                                    <h3 class="prdct-desc-cntnr-ttl-w">
+                                        <span class="prdct-desc-cntnr-ttl" [title]="product.brand">{{ product.brand
+                                            }}</span>
+                                        <span class="prdct-desc-cntnr-name hasRatings" [title]="product.model">{{
+                                            product.model }}</span>
+                                        <div class="product-desc-sub-container">
+                                            <div class="product-desc-sub-text">
+                                                {{ product.name }}
+                                            </div>
+                                        </div>
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="social-proof-wrapper" data-testid="social-proof">
+                                <div class="social-proof">
+                                    <span class="social-proof-item">
+                                        <img src="https://cdn.dsmcdn.com/web/production/orange-heart.png"
+                                            alt="social proof icon">
+                                        <p class="social-proof-text">
+                                            <span class="focused-text">{{ product.favorites }} kişi</span> favoriledi!
+                                        </p>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="price-promotion-container">
+                                <div class="prc-cntnr discountedPriceBox">
+                                    <div class="prc-box-dscntd">{{ product.price.sellingPrice | currency:
+                                        "TRY":"TL"}}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="fvrt-btn-wrppr">
+                    <i class="fvrt-btn"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Diğer sabit kolonlar -->
+        <div class="col-md-3"></div>
+        <div class="col-md-3">a</div>
+        <div class="col-md-3">a</div>
+    </div>
+</div>

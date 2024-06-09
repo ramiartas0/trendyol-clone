@@ -1,0 +1,73 @@
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
+* {
+  box-sizing: border-box;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.logo-img {
+    display: block;
+}
+.serach-input{
+  -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 14px;
+    color: #333;
+    background-color: #f3f3f3;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 6px;
+    padding: 10px 40px 10px 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    -webkit-transition: all ease .3s;
+    transition: all ease .3s;
+    line-height: 0;
+    height: 42px;
+    width: 100%;
+}
+.basket{
+      text-decoration: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 40px;
+    transition: all ease .3s;
+}
+a {
+    color: #1b1b1b;
+    text-decoration: none;
+}
+.icon-container {
+    position: relative;
+    height: 18px;
+    transition: all ease .3s;
+}
+.link-text {
+    font-size: 13px;
+    color: #333333;
+    padding-left: 8px;
+    margin-top: 25px;
+    transition: all ease .3s;
+}
+.basket-number{
+    background-color: #f27a1a;
+    color: #fff;
+    font-size: 11px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 23px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.basket:hover .icon-container i,
+.basket:hover .link-text {
+    color: #f27a1a;
+    
+}
+

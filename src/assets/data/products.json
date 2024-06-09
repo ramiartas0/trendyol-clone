@@ -1,0 +1,169 @@
+{
+    "result": [
+        {
+            "id": 1,
+            "brand": "Casper",
+            "model": "Excalibur G870.1265-DXB0X-B",
+            "name": "Intel Core i7-12650H 32GB RAM 2TB NVME SSD 8GB RTX4060 Freedos",
+            "imageUrl": "assets/img/casper.webp",
+            "favorites": 5803,
+            "price": {
+                "sellingPrice": 5453
+            }
+        },
+        {
+            "id": 2,
+            "brand": "IZOLY",
+            "model": "K303 I7-860 16GB 256GB",
+            "name": "Ssd Gt 740 4GB 24' Oyuncu Masaüstü Bilgisayarı",
+            "imageUrl": "assets/img/izoly.webp",
+            "favorites": 8531,
+            "price": {
+                "sellingPrice": 997515
+            }
+        },
+        {
+            "id": 3,
+            "brand": "LENOVO",
+            "model": "IP Gaming3 AMD Ryzen",
+            "name": "7-5800H 16GB 512GB RTX3060 DOS 15.6' Shadow Black Gaming Laptop 82K20256TX",
+            "imageUrl": "assets/img/lenovo.webp",
+            "favorites": 2094,
+            "price": {
+                "sellingPrice": 26699
+            }
+        },
+        {
+            "id": 4,
+            "brand": "ASUS",
+            "model": "Tuf Gamıng A15",
+            "name": "Fa507nu-lp052 Amd Ryzen 7-7735hs 8gb Ddr5 512gb Ssd 6gb Rtx4050 15.6' 144hz Dos",
+            "imageUrl": "assets/img/asus.webp",
+            "favorites": 4357,
+            "price": {
+                "sellingPrice": 28270
+            }
+        },
+        {
+            "id": 5,
+            "brand": "Dell",
+            "model": "Inspiron",
+            "name": "Intel Core i5-11300H 8GB 512GB SSD Intel Iris Xe Graphics",
+            "imageUrl": "assets/img/dell.webp",
+            "favorites": 7312,
+            "price": {
+                "sellingPrice": 12799
+            }
+        },
+        {
+            "id": 6,
+            "brand": "HP",
+            "model": "Pavilion",
+            "name": "AMD Ryzen 5-5600H 12GB 1TB HDD NVIDIA GeForce GTX 1650",
+            "imageUrl": "assets/img/hp.webp",
+            "favorites": 6098,
+            "price": {
+                "sellingPrice": 18700
+            }
+        },
+        {
+            "id": 7,
+            "brand": "MSI",
+            "model": "GF65 Thin",
+            "name": "Intel Core i7-11800H 16GB 1TB NVMe SSD NVIDIA GeForce RTX 3060",
+            "imageUrl": "assets/img/msi.webp",
+            "favorites": 9583,
+            "price": {
+                "sellingPrice": 32699
+            }
+        },
+        {
+            "id": 8,
+            "brand": "Acer",
+            "model": "Nitro 5",
+            "name": "AMD Ryzen 7-5800H 16GB 512GB NVMe SSD NVIDIA GeForce RTX 3070",
+            "imageUrl": "assets/img/acer.webp",
+            "favorites": 5123,
+            "price": {
+                "sellingPrice": 31999
+            }
+        },
+        {
+            "id": 9,
+            "brand": "Apple",
+            "model": "MacBook Pro",
+            "name": "Apple M1 Chip 16GB 1TB SSD Apple 8-core GPU",
+            "imageUrl": "assets/img/apple.webp",
+            "favorites": 11027,
+            "price": {
+                "sellingPrice": 24999
+            }
+        },
+        {
+            "id": 10,
+            "brand": "Lenovo",
+            "model": "ThinkPad X1 Carbon",
+            "name": "Intel Core i7-1165G7 16GB 512GB NVMe SSD Intel Iris Xe Graphics",
+            "imageUrl": "assets/img/ThinkPad.webp",
+            "favorites": 6784,
+            "price": {
+                "sellingPrice": 27999
+            }
+        },
+        {
+            "id": 11,
+            "brand": "Razer",
+            "model": "Blade 15",
+            "name": "Intel Core i7-10875H 16GB 1TB SSD NVIDIA GeForce RTX 3080",
+            "imageUrl": "assets/img/razer.webp",
+            "favorites": 9032,
+            "price": {
+                "sellingPrice": 41999
+            }
+        },
+        {
+            "id": 12,
+            "brand": "Samsung",
+            "model": "Galaxy Book Pro",
+            "name": "Intel Core i7-1165G7 16GB 1TB SSD Intel Iris Xe Graphics",
+            "imageUrl": "assets/img/samsung.webp",
+            "favorites": 8235,
+            "price": {
+                "sellingPrice": 32999
+            }
+        },
+        {
+            "id": 13,
+            "brand": "Microsoft",
+            "model": "Surface Laptop 4",
+            "name": "AMD Ryzen 5-4680U 8GB 256GB SSD AMD Radeon Graphics",
+            "imageUrl": "assets/img/surface.webp",
+            "favorites": 7546,
+            "price": {
+                "sellingPrice": 18999
+            }
+        },
+        {
+            "id": 14,
+            "brand": "Huawei",
+            "model": "MateBook X Pro",
+            "name": "Intel Core i7-1165G7 16GB 1TB SSD NVIDIA GeForce MX250",
+            "imageUrl": "assets/img/Huawei.webp",
+            "favorites": 6357,
+            "price": {
+                "sellingPrice": 28999
+            }
+        },
+        {
+            "id": 15,
+            "brand": "Xiaomi",
+            "model": "Mi Gaming Laptop",
+            "name": "Intel Core i7-10750H 16GB 512GB SSD NVIDIA GeForce RTX 3060",
+            "imageUrl": "assets/img/Xiaomi.webp",
+            "favorites": 8821,
+            "price": {
+                "sellingPrice": 24999
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+<div class="container-fluid">
+    <div class="container">
+        <header>
+            <div class="row pt-3">
+                <div class="col-md-3">
+                    <div class="logo">
+                        <a routerLink="/" class="logo-img" title="trendyol">
+                            <img style="width:146px;height:100%; margin-top: -3px;"
+                                src="https://cdn.dsmcdn.com/web/logo/ty-web.svg" alt="Trendyol">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="serach">
+                        <input type="text" class="serach-input" tabindex="1" autocomplete="off" maxlength="50"
+                            placeholder="Aradığınız ürün, kategori veya markayı yazınız" value="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="account-nav-item basket-preview">
+                        <a class="basket" routerLink="/sepet">
+                            <div class="icon-container">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </div>
+                            <p class="link-text">Sepetim</p>
+                            <p class="basket-number">0</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <router-outlet></router-outlet>
+        </main>
+    </div>
+</div>

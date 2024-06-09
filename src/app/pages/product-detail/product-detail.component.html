@@ -1,0 +1,8 @@
+<div *ngIf="product">
+    <h2>{{ product.name }}</h2>
+    <p>Marka: {{ product.brand }}</p>
+    <p>Model: {{ product.model }}</p>
+    <p>Fiyat: {{ product.price.sellingPrice | currency:'TRY':'symbol-narrow':'1.2-2' }}</p>
+</div>
+
+<h1>asdasd</h1>
