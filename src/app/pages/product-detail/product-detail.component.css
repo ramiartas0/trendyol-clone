@@ -1,0 +1,72 @@
+.base-product-image {
+
+    width: 400px;
+    height: 600px;
+    border: 1px solid #cccc;
+    float: left;
+}
+ .pr-new-br {
+    font-size: 20px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-weight: 100;
+}
+.product-brand-name-with-link {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.product-button-container {
+    height: 50px;
+    display: flex;
+    margin-bottom: 16px;
+    padding-top: 8px;
+}
+.add-to-basket {
+    width: 100%;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background: #f27a1a;
+    font-size: 18px;
+    letter-spacing: .03em;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s step-start;
+    overflow: hidden;
+}
+.add-to-basket .add-to-basket-button-text {
+    transition: all .3s ease-in-out;
+    transform: translate3d(0, 10px, 0);
+}
+.add-to-basket .add-to-basket-button-text-success {
+    visibility: hidden;
+    transform: translate3d(0, 30px, 0);
+    transition: all .3s ease-in-out;
+}
+.tooltip-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fv {
+    position: relative;
+    min-width: 48px;
+    height: 48px;
+    margin: 0 0 0 15px;
+    border-radius: 50%;
+    border: solid 1px #e6e6e6;
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fv .i-heart {
+    color: #8c8c8c;
+}

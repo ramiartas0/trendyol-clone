@@ -1,8 +1,51 @@
-<div *ngIf="product">
-    <h2>{{ product.name }}</h2>
-    <p>Marka: {{ product.brand }}</p>
-    <p>Model: {{ product.model }}</p>
-    <p>Fiyat: {{ product.price.sellingPrice | currency:'TRY':'symbol-narrow':'1.2-2' }}</p>
+<div class="container mt-5" *ngIf="product">
+    <div class="row">
+        <div class="col-md-5">
+            <div class="base-product-image">
+                <img [src]="product.imageUrl" alt="{{ product.name }}" style="width: 100%; height: 100%;">
+            </div>
+        </div>
+        <div class="col-md-7">
+        <div class="pr-in-cn">
+            <div>
+                <h1 class="pr-new-br" data-drroot="h1">
+                    <div class="product-brand-name-with-link">{{ product.brand }} {{ product.model }}</div> 
+                    <span>{{ product.name }}</span>
+                </h1>
+            </div>         
+        </div>
+        <div class="social-proof-wrapper" data-testid="social-proof">
+            <div class="social-proof">
+                <span class="social-proof-item">
+                    <img src="https://cdn.dsmcdn.com/web/production/orange-heart.png"
+                        alt="social proof icon">
+                    <p class="social-proof-text">
+                        <span class="focused-text" >{{ product.favorites }} kişi</span> favoriledi!
+                    </p>
+                </span>
+            </div>
+        </div> 
+        <div class="price-promotion-container" >
+            <div class="prc-cntnr discountedPriceBox">
+                <div class="prc-box-dscntd" style="font-size: 20px;">{{ product.price.sellingPrice | currency:
+                    "TRY":"TL"}}</div>
+            </div>
+        </div>
+        <hr> 
+        <div class="product-button-container">
+            <button component-id="1" class="add-to-basket">
+                <div class="add-to-basket-button-text">Sepete Ekle</div>
+                <div class="add-to-basket-button-text-success">Sepete Eklendi</div>
+                <div class="add-to-bs-ldr"></div>
+            </button>
+            <div class="favorite-button">
+                <div class="review-tooltip">
+                    <div class="tooltip-indicator">
+                        <button class="fv"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>                                                             
+    </div>
 </div>
-
-<h1>asdasd</h1>
+</div>
