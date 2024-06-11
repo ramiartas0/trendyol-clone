@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { BasketService } from '../service/basket.service';
 
 @Component({
   selector: 'app-layout',
@@ -6,8 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./layout.component.css']
 })
 export class LayoutComponent implements OnInit {
-  constructor() { }
+  basketCount: number = 0;
+
+  constructor(private basketService: BasketService) { }
 
   ngOnInit(): void {
+    this.basketCount = this.basketService.getItemCount();
   }
 }

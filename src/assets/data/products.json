@@ -19,7 +19,8 @@
             "imageUrl": "assets/img/izoly.webp",
             "favorites": 8531,
             "price": {
-                "sellingPrice": 997515
+                "sellingPrice": 997515,
+                "totalPrice": 997515
             }
         },
         {
@@ -30,7 +31,8 @@
             "imageUrl": "assets/img/lenovo.webp",
             "favorites": 2094,
             "price": {
-                "sellingPrice": 26699
+                "sellingPrice": 26699,
+                "totalPrice": 26699
             }
         },
         {
@@ -41,7 +43,8 @@
             "imageUrl": "assets/img/asus.webp",
             "favorites": 4357,
             "price": {
-                "sellingPrice": 28270
+                "sellingPrice": 28270,
+                "totalPrice": 28270
             }
         },
         {
@@ -52,7 +55,8 @@
             "imageUrl": "assets/img/dell.webp",
             "favorites": 7312,
             "price": {
-                "sellingPrice": 12799
+                "sellingPrice": 12799,
+                "totalPrice": 12799
             }
         },
         {
@@ -63,7 +67,8 @@
             "imageUrl": "assets/img/hp.webp",
             "favorites": 6098,
             "price": {
-                "sellingPrice": 18700
+                "sellingPrice": 18700,
+                "totalPrice": 18700
             }
         },
         {
@@ -74,7 +79,8 @@
             "imageUrl": "assets/img/msi.webp",
             "favorites": 9583,
             "price": {
-                "sellingPrice": 32699
+                "sellingPrice": 32699,
+                "totalPrice": 32699
             }
         },
         {
@@ -85,7 +91,8 @@
             "imageUrl": "assets/img/acer.webp",
             "favorites": 5123,
             "price": {
-                "sellingPrice": 31999
+                "sellingPrice": 31999,
+                "totalPrice": 31999
             }
         },
         {
@@ -96,7 +103,8 @@
             "imageUrl": "assets/img/apple.webp",
             "favorites": 11027,
             "price": {
-                "sellingPrice": 24999
+                "sellingPrice": 24999,
+                "totalPrice": 24999
             }
         },
         {
@@ -107,7 +115,8 @@
             "imageUrl": "assets/img/ThinkPad.webp",
             "favorites": 6784,
             "price": {
-                "sellingPrice": 27999
+                "sellingPrice": 27999,
+                "totalPrice": 27999
             }
         },
         {
@@ -118,7 +127,8 @@
             "imageUrl": "assets/img/razer.webp",
             "favorites": 9032,
             "price": {
-                "sellingPrice": 41999
+                "sellingPrice": 41999,
+                "totalPrice": 41999
             }
         },
         {
@@ -129,7 +139,8 @@
             "imageUrl": "assets/img/samsung.webp",
             "favorites": 8235,
             "price": {
-                "sellingPrice": 32999
+                "sellingPrice": 32999,
+                "totalPrice": 32999
             }
         },
         {
@@ -140,7 +151,8 @@
             "imageUrl": "assets/img/surface.webp",
             "favorites": 7546,
             "price": {
-                "sellingPrice": 18999
+                "sellingPrice": 18999,
+                "totalPrice": 18999
             }
         },
         {
@@ -151,7 +163,8 @@
             "imageUrl": "assets/img/Huawei.webp",
             "favorites": 6357,
             "price": {
-                "sellingPrice": 28999
+                "sellingPrice": 28999,
+                "totalPrice": 28999
             }
         },
         {
@@ -162,7 +175,8 @@
             "imageUrl": "assets/img/Xiaomi.webp",
             "favorites": 8821,
             "price": {
-                "sellingPrice": 24999
+                "sellingPrice": 24999,
+                "totalPrice": 24999
             }
         }
     ]
